@@ -1,6 +1,6 @@
-import { Check, Copy } from "lucide-react"; // For copy icon feedback
+import { Check, Copy } from "lucide-react";
 import React, { useState } from "react";
-import "./style.css"; // Import styles
+import "./style.css";
 
 const PasswordGenerator = () => {
   const [length, setLength] = useState(8);
